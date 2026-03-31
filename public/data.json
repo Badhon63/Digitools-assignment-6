@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and copy in seconds using advanced AI technology.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["AI-powered content generation", "100+ writing templates", "Plagiarism checker", "SEO optimization"],
+    "icon": "✍️"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Access thousands of professionally designed templates for any creative project.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["500+ premium templates", "Fully customizable", "Commercial license", "Regular updates"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Unlimited access to millions of high-resolution images, videos, and audio files.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["10M+ stock assets", "4K video footage", "Royalty-free license", "Daily new uploads"],
+    "icon": "🖼️"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and workflows to save time and boost productivity.",
+    "price": 199.99,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Visual workflow builder", "1000+ integrations", "Scheduled automation", "Analytics dashboard"],
+    "icon": "⚙️"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create stunning, ATS-friendly resumes that land you more interviews.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["100+ resume templates", "ATS optimization", "Export to PDF", "Cover letter builder"],
+    "icon": "📄"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Plan, create, and schedule your social media content all in one place.",
+    "price": 24.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Content calendar", "Post scheduler", "Analytics & insights", "Caption AI generator"],
+    "icon": "📱"
+  }
+]
