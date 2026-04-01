@@ -1,4 +1,5 @@
 import React from 'react';
+import cartImg from '../../assets/products/shopping-cart.png';
 
 const Navbar = () => {
   return (
@@ -31,7 +32,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end space-x-5">
-          <img src="/src/assets/products/shopping-cart.png" alt="" className='hidden md:block'/>
+          <img src={cartImg} alt="" className='hidden md:block'/>
           <a className="cursor-pointer">Login</a>
           <a className="bg-linear-to-r from-[#632EF7] to-[#9415FA] text-white btn rounded-3xl">Get Started</a>
         </div>

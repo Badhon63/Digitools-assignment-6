@@ -8,6 +8,8 @@ import Steps from './components/hompage/steps/Steps'
 import Pricing from './components/hompage/pricing/Pricing'
 import BottomBanner from './components/hompage/bottombanner/BottomBanner'
 import Footer from './components/footer/Footer'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const fetchProducts = async () => {
   const res = await fetch('/data.json');
@@ -24,13 +26,18 @@ function App() {
       <Navbar cartCount={cartCount} />
       <Banner />
       <Ratings />
-      <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
+      <Suspense fallback={
+  <div className='flex justify-center items-center h-screen'>
+    <span className="loading loading-dots loading-xl"></span>
+  </div>
+}>
         <Products productsPromise={productsPromise} setCartCount={setCartCount} cartCount={cartCount} />
       </Suspense>
       <Steps></Steps>
       <Pricing></Pricing>
       <BottomBanner></BottomBanner>
       <Footer></Footer>
+      <ToastContainer />
     </div>
   )
 }

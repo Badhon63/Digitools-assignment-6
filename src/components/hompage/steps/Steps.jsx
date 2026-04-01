@@ -1,4 +1,7 @@
 import React from 'react';
+import userImg from '../../../assets/user.png';
+import packageImg from '../../../assets/package.png';
+import rocketImg from '../../../assets/rocket.png';
 
 const Steps = () => {
   return (
@@ -14,21 +17,23 @@ const Steps = () => {
             <div className='flex justify-end w-full'>
               <p className='bg-linear-to-r from-[#632EF7] to-[#9415FA] rounded-full px-2 py-1 text-white '>01</p>
             </div>
-            <img src="/src/assets/user.png" alt="" className='bg-[#F3E8FE] p-4 rounded-full mt-5' />
+            <img src={userImg} alt="" className='bg-[#F3E8FE] p-4 rounded-full mt-5' />
             <h3 className='font-bold text-3xl'>Create Account</h3>
             <p>Sign up for free in seconds. No credit card required to get started.</p>
           </div>
           <div className='bg-base-100 py-4 px-8 rounded-lg pb-10 shadow space-y-2 flex flex-col items-center text-center'>
             <div className='flex justify-end w-full'>
               <p className='bg-linear-to-r from-[#632EF7] to-[#9415FA] rounded-full px-2 py-1 text-white '>02</p>
-            </div>            <img src="/src/assets/package.png" alt="" className='bg-[#F3E8FE] p-4 rounded-full mt-5' />
+            </div>
+            <img src={packageImg} alt="" className='bg-[#F3E8FE] p-4 rounded-full mt-5' />
             <h3 className='font-bold text-3xl'>Choose Products</h3>
             <p>Browse our catalog and select the tools that fit your needs.</p>
           </div>
           <div className='bg-base-100 py-4 px-8 rounded-lg pb-10 shadow space-y-2 flex flex-col items-center text-center'>
             <div className='flex justify-end w-full'>
               <p className='bg-linear-to-r from-[#632EF7] to-[#9415FA] rounded-full px-2 py-1 text-white '>03</p>
-            </div>            <img src="/src/assets/rocket.png" alt="" className='bg-[#F3E8FE] p-4 rounded-full mt-5' />
+            </div>
+            <img src={rocketImg} alt="" className='bg-[#F3E8FE] p-4 rounded-full mt-5' />
             <h3 className='font-bold text-3xl'>Start Creating</h3>
             <p>Download and start using your premium tools immediately.</p>
           </div>
