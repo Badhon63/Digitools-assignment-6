@@ -4,6 +4,7 @@ import Banner from './components/hompage/banner/Banner'
 import Ratings from './components/hompage/banner/Ratings'
 import Products from './components/hompage/products/Products'
 import Navbar from './components/navbar/Navbar'
+import Steps from './components/hompage/steps/Steps'
 
 const fetchProducts = async () => {
   const res = await fetch('/data.json');
@@ -23,6 +24,7 @@ function App() {
       <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
         <Products productsPromise={productsPromise} setCartCount={setCartCount} cartCount={cartCount} />
       </Suspense>
+      <Steps></Steps>
     </div>
   )
 }
