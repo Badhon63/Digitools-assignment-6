@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end space-x-5">
           <img src={cartImg} alt="" className='hidden md:block'/>
-          <a className="cursor-pointer">Login</a>
+          <a className="cursor-pointer hidden md:block">Login</a>
           <a className="bg-linear-to-r from-[#632EF7] to-[#9415FA] text-white btn rounded-3xl">Get Started</a>
         </div>
       </div>
