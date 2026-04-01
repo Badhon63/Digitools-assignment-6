@@ -5,6 +5,7 @@ import Ratings from './components/hompage/banner/Ratings'
 import Products from './components/hompage/products/Products'
 import Navbar from './components/navbar/Navbar'
 import Steps from './components/hompage/steps/Steps'
+import Pricing from './components/hompage/pricing/Pricing'
 
 const fetchProducts = async () => {
   const res = await fetch('/data.json');
@@ -25,6 +26,7 @@ function App() {
         <Products productsPromise={productsPromise} setCartCount={setCartCount} cartCount={cartCount} />
       </Suspense>
       <Steps></Steps>
+      <Pricing></Pricing>
     </div>
   )
 }
