@@ -7,6 +7,7 @@ import Navbar from './components/navbar/Navbar'
 import Steps from './components/hompage/steps/Steps'
 import Pricing from './components/hompage/pricing/Pricing'
 import BottomBanner from './components/hompage/bottombanner/BottomBanner'
+import Footer from './components/footer/Footer'
 
 const fetchProducts = async () => {
   const res = await fetch('/data.json');
@@ -29,6 +30,7 @@ function App() {
       <Steps></Steps>
       <Pricing></Pricing>
       <BottomBanner></BottomBanner>
+      <Footer></Footer>
     </div>
   )
 }
